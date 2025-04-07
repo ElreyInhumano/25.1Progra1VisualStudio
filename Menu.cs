@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Progra1251
 {
-    class Program
+    class Menu
     {
-        static void Main(string[] args)
+        public void Execute()
         {
-            Menu menu = new Menu();
-            menu.Execute();
+
         }
     }
 }
