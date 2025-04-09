@@ -12,12 +12,13 @@ namespace Progra1251
         protected string name;
         protected int life;
         protected int damage;
-
+        public List<Enemy> list;
         public Enemy(string name, int life, int damage)
         {
             this.name = name;
             this.life = life;
             this.damage = damage;
+            list = new List<Enemy>();
         }
         public abstract bool Live();
         public abstract int Life();
@@ -41,5 +42,7 @@ namespace Progra1251
         {
             return $"{name}: {Live()}, {Damage()}";
         }
+        public abstract void AddEnemiesToList();
+        
     }
 }
