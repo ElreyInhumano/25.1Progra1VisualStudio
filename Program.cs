@@ -10,8 +10,8 @@ namespace Progra1251
     {
         static void Main(string[] args)
         {
-            Menu menu = new Menu();
-            menu.Execute();
+            Game game = new Game();
+            game.StartGame();
         }
     }
 }

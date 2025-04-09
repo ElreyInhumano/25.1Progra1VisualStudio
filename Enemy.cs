@@ -8,17 +8,16 @@ namespace Progra1251
 {
     abstract class Enemy
     {
-        protected bool live;
+        public int ammo;
+        public bool live;
         protected string name;
-        protected int life;
-        protected int damage;
-        public List<Enemy> list;
+        public int life;
+        public int damage;
         public Enemy(string name, int life, int damage)
         {
             this.name = name;
             this.life = life;
             this.damage = damage;
-            list = new List<Enemy>();
         }
         public abstract bool Live();
         public abstract int Life();
