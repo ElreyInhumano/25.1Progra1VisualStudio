@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Progra1251
 {
-    class LimaCity : City
+    class LimaCity : City, IObtainTaxes
     {
-        public LimaCity(string name, float taxes, bool building1, bool building2,
-            bool building3, bool park1, bool park2, bool park3) : base(name, taxes, building1, park1)
+        public LimaCity(string name, float taxes, float buildsCount, bool building1, bool park1, bool building2,
+            bool building3, bool park2, bool park3) : base(name, taxes, buildsCount, building1, park1)
         {
             this.building2 = building2;
             this.building3 = building3;
@@ -17,6 +17,37 @@ namespace Progra1251
             this.park3 = park3;
         }
 
+        public float ObtainTaxes()
+        {
+            if(buildsCount == 0)
+            {
+                return taxes;
+            }
+            else if(buildsCount == 1)
+            {
+                return taxes * 2;
+            }
+            else if(buildsCount == 2)
+            {
+                return taxes * 3;
+            }
+            else if(buildsCount == 3)
+            {
+                return taxes * 4;
+            }
+            else if(buildsCount == 4)
+            {
+                return taxes * 5;
+            }
+            else if(buildsCount == 5)
+            {
+                return taxes * 6;
+            }
+            else
+            {
+                return taxes * 7;
+            }
+        }
         public override string GetDetails()
         {
             if(building1 && building2 && building3 && park1 && park2 && park3)

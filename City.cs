@@ -10,6 +10,7 @@ namespace Progra1251
     {
         protected string name;
         protected float taxes;
+        protected float buildsCount;
         protected bool building1;
         protected bool building2;
         protected bool building3;
@@ -17,10 +18,11 @@ namespace Progra1251
         protected bool park2;
         protected bool park3;
 
-        protected City(string name, float taxes, bool building1, bool park1)
+        protected City(string name, float taxes, float buildsCount, bool building1, bool park1)
         {
             this.name = name;
             this.taxes = taxes;
+            this.buildsCount = buildsCount;
             this.building1 = building1;
             this.park1 = park1;
         }
