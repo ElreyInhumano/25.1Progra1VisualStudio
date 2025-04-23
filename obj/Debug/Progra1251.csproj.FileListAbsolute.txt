@@ -1,0 +1,7 @@
+D:\Disco C\VisualStudioRepos\Progra1251\bin\Debug\Progra1251.exe.config
+D:\Disco C\VisualStudioRepos\Progra1251\bin\Debug\Progra1251.exe
+D:\Disco C\VisualStudioRepos\Progra1251\bin\Debug\Progra1251.pdb
+D:\Disco C\VisualStudioRepos\Progra1251\obj\Debug\Progra1251.csproj.AssemblyReference.cache
+D:\Disco C\VisualStudioRepos\Progra1251\obj\Debug\Progra1251.csproj.CoreCompileInputs.cache
+D:\Disco C\VisualStudioRepos\Progra1251\obj\Debug\Progra1251.exe
+D:\Disco C\VisualStudioRepos\Progra1251\obj\Debug\Progra1251.pdb
