@@ -8,8 +8,8 @@ namespace Progra1251
 {
     class TrujilloCity : City, IObtainTaxes
     {
-        public TrujilloCity(string name, float taxes, float buildsCount, bool building1, bool park1, bool building2,
-            bool building3, bool park2, bool park3) : base(name, taxes, buildsCount, building1, park1)
+        public TrujilloCity(string name, float taxes, float priceBuild, float pricePark, float buildsCount, bool building1, bool park1, bool building2,
+            bool building3, bool park2, bool park3) : base(name, taxes, priceBuild, pricePark, buildsCount, building1, park1)
         {
             this.building2 = building2;
             this.building3 = building3;

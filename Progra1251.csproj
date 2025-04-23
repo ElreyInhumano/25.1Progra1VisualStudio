@@ -43,11 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChiclayoCity.cs" />
     <Compile Include="City.cs" />
-    <Compile Include="IIncreaseTaxes.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="IObtainTaxes.cs" />
     <Compile Include="LimaCity.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrujilloCity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
