@@ -25,6 +25,6 @@ namespace Progra1251
             this.park1 = park1;
         }
 
-        
+        public abstract string GetDetails();
     }
 }
