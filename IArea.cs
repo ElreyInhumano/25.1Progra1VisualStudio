@@ -8,5 +8,6 @@ namespace Progra1251
 {
     interface IArea
     {
+        float Area();
     }
 }
