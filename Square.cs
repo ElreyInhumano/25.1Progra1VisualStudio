@@ -14,7 +14,7 @@ namespace Progra1251
 
         protected override string GetDetails()
         {
-            return $"La lado de {name} es {b}, y su área es {Area()}";
+            return $"El lado de {name} es {b}, y su área es {Area()}";
         }
         new public float Area()
         {
