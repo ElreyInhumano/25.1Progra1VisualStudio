@@ -8,9 +8,9 @@ namespace Progra1251
 {
     abstract class Shape
     {
-        protected int name;
+        protected string name;
 
-        protected Shape(int name)
+        protected Shape(string name)
         {
             this.name = name;
         }
