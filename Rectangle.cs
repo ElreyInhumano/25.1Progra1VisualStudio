@@ -19,7 +19,7 @@ namespace Progra1251
 
         protected override string GetDetails()
         {
-            return $"La base de{name} es {b}, su altura es {h} y su área es {Area()}";
+            return $"La base de {name} es {b}, su altura es {h} y su área es {Area()}";
         }
         public float Area()
         {
