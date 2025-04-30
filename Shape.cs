@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Progra1251
 {
-    class Shape
+    abstract class Shape
     {
         protected int name;
 
@@ -14,5 +14,7 @@ namespace Progra1251
         {
             this.name = name;
         }
+
+        protected abstract string GetDetails();
     }
 }
