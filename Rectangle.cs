@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Progra1251
 {
-    class Rectangle: Shape
+    class Rectangle: Shape, IArea
     {
 
         protected int b, h;
@@ -19,8 +19,11 @@ namespace Progra1251
 
         protected override string GetDetails()
         {
-            throw new NotImplementedException();
+            return $"La base de{name} es {b}, su altura es {h} y su área es {Area()}";
         }
-
+        public float Area()
+        {
+            return b * h;
+        }
     }
 }
