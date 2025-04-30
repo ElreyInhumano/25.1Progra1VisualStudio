@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Progra1251
 {
-    class Rectangle: Shape, IArea
+    class Triangle: Shape, IArea
     {
+        private float b, h;
 
-        protected float b, h;
-
-        protected Rectangle(string name, float b, float h) : base(name)
+        private Triangle(string name, float b, float h): base(name)
         {
             this.b = b;
             this.h = h;
@@ -23,7 +22,7 @@ namespace Progra1251
         }
         public float Area()
         {
-            return b * h;
+            return b * h / 2;
         }
     }
 }

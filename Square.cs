@@ -8,7 +8,7 @@ namespace Progra1251
 {
     class Square: Rectangle, IArea
     {
-        private Square(string name, int b, int h): base(name, b, h)
+        private Square(string name, float b, float h): base(name, b, h)
         {
         }
 
