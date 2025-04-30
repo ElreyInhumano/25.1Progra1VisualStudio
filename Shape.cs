@@ -10,6 +10,9 @@ namespace Progra1251
     {
         protected int name;
 
-        
+        protected Shape(int name)
+        {
+            this.name = name;
+        }
     }
 }
