@@ -11,15 +11,15 @@ namespace Progra1251
 
         protected float b, h;
 
-        protected Rectangle(string name, float b, float h) : base(name)
+        public Rectangle(string name, float b, float h) : base(name)
         {
             this.b = b;
             this.h = h;
         }
 
-        protected override string GetDetails()
+        public override string GetDetails()
         {
-            return $"La base de {name} es {b}, su altura es {h} y su área es {Area()}";
+            return $"La base del rectángulo {name} es {b}, su altura es {h} y su área es {Area()}";
         }
         public float Area()
         {

@@ -10,15 +10,15 @@ namespace Progra1251
     {
         private float b, h;
 
-        private Triangle(string name, float b, float h): base(name)
+        public Triangle(string name, float b, float h): base(name)
         {
             this.b = b;
             this.h = h;
         }
 
-        protected override string GetDetails()
+        public override string GetDetails()
         {
-            return $"La base de {name} es {b}, su altura es {h} y su área es {Area()}";
+            return $"La base del triángulo {name} es {b}, su altura es {h} y su área es {Area()}";
         }
         public float Area()
         {

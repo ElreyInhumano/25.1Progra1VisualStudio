@@ -15,6 +15,6 @@ namespace Progra1251
             this.name = name;
         }
 
-        protected abstract string GetDetails();
+        public abstract string GetDetails();
     }
 }

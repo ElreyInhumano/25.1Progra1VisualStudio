@@ -9,14 +9,14 @@ namespace Progra1251
     class Circle: Shape, IArea
     {
         private float r;
-        private Circle(string name, float r): base(name)
+        public Circle(string name, float r): base(name)
         {
             this.r = r;
         }
 
-        protected override string GetDetails()
+        public override string GetDetails()
         {
-            return $"El radio de {name} es {r}, y su área es {Area()}";
+            return $"El radio del círculo {name} es {r}, y su área es {Area()}";
         }
         public float Area()
         {
