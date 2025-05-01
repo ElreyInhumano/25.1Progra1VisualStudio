@@ -96,10 +96,9 @@ namespace Progra1251
             Console.WriteLine("Introduzca el nombre");
             string name = Console.ReadLine();
             Console.WriteLine("Introduzca el lado");
-            float b = float.Parse(Console.ReadLine());
-            float h = b;
-            shapes.Add(new Square(name, b, h));
-            Console.WriteLine($"Se creó la figura {name} de lado {b}");
+            float l = float.Parse(Console.ReadLine());
+            shapes.Add(new Square(name, l));
+            Console.WriteLine($"Se creó la figura {name} de lado {l}");
             Console.ReadLine();
         }
         private void CreateCircle()

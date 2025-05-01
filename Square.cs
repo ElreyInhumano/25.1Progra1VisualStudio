@@ -6,19 +6,15 @@ using System.Threading.Tasks;
 
 namespace Progra1251
 {
-    class Square: Rectangle, IArea
+    class Square: Rectangle
     {
-        public Square(string name, float b, float h): base(name, b, h)
+        public Square(string name, float l): base(name, l, l)
         {
         }
 
         public override string GetDetails()
         {
             return $"El lado del cuadrado {name} es {b}, y su área es {Area()}";
-        }
-        new public float Area()
-        {
-            return b * b;
         }
     }
 }
