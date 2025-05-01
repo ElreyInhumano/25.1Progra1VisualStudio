@@ -8,13 +8,13 @@ namespace Progra1251
 {
     class Square: Rectangle, IArea
     {
-        private Square(string name, float b, float h): base(name, b, h)
+        public Square(string name, float b, float h): base(name, b, h)
         {
         }
 
-        protected override string GetDetails()
+        public override string GetDetails()
         {
-            return $"El lado de {name} es {b}, y su área es {Area()}";
+            return $"El lado del cuadrado {name} es {b}, y su área es {Area()}";
         }
         new public float Area()
         {
